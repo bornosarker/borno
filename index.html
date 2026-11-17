@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Borno Sarker — aspiring software engineer and web developer.">
+  <title>Borno Sarker | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Borno Sarker home"><span class="brand-mark">B</span><span>Borno<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme" title="Switch theme"><span id="themeIcon">☀</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container section" id="home">
+      <div class="hero-copy reveal">
+        <div class="status-pill"><span class="status-dot"></span> Learning, building, improving</div>
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Borno <span class="gradient-text">Sarker.</span></h1>
+        <h2>Aspiring <span id="typedRole">Software Engineer</span><span class="typing-cursor">|</span></h2>
+        <p class="hero-description">I’m learning to build thoughtful, useful experiences for the web—one project and one line of code at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub profile">GitHub ↗</a>
+          <span class="social-divider"></span>
+          <a href="#contact">Let’s connect ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Decorative code card">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><div class="window-dots"><i></i><i></i><i></i></div><span>about-borno.js</span><span class="code-menu">•••</span></div>
+          <div class="code-content">
+            <div><span class="line-number">01</span><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</div>
+            <div><span class="line-number">02</span>&nbsp;&nbsp;name: <span class="code-green">'Borno Sarker'</span>,</div>
+            <div><span class="line-number">03</span>&nbsp;&nbsp;role: <span class="code-green">'Future Engineer'</span>,</div>
+            <div><span class="line-number">04</span>&nbsp;&nbsp;skills: [</div>
+            <div><span class="line-number">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'HTML'</span>, <span class="code-green">'CSS'</span>,</div>
+            <div><span class="line-number">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'JavaScript'</span></div>
+            <div><span class="line-number">07</span>&nbsp;&nbsp;],</div>
+            <div><span class="line-number">08</span>&nbsp;&nbsp;mindset: <span class="code-green">'Always learning'</span></div>
+            <div><span class="line-number">09</span>};</div>
+            <div class="code-comment"><span class="line-number">10</span>// Turning ideas into reality ✨</div>
+          </div>
+          <div class="code-footer"><span><span class="footer-dot"></span> Available to learn</span><span>UTF-8&nbsp; JavaScript</span></div>
+        </div>
+        <div class="floating-badge badge-html"><span>5</span> HTML</div>
+        <div class="floating-badge badge-css"><span>✦</span> CSS</div>
+        <div class="floating-badge badge-js"><span>JS</span> JavaScript</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-mouse"></span> Scroll to explore</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious mind. <span class="gradient-text">Builder's heart.</span></h2><p>Every expert starts as a beginner. I’m enjoying the process of becoming better.</p></div>
+      <div class="about-grid">
+        <article class="about-card glass-card reveal"><div class="card-icon">⌘</div><h3>My journey</h3><p>I’m a student exploring web development and software engineering. I enjoy turning ideas into websites and learning how technology works.</p></article>
+        <article class="about-card glass-card reveal"><div class="card-icon">↗</div><h3>My focus</h3><p>Building clean, responsive websites with HTML, CSS and JavaScript, while improving my problem-solving skills step by step.</p></article>
+        <article class="about-card glass-card reveal"><div class="card-icon">✦</div><h3>My mindset</h3><p>Stay curious, practise consistently, learn from mistakes, and make every project a little better than the last.</p></article>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">WHAT I'M LEARNING</p><h2>Tools in my <span class="gradient-text">toolbox.</span></h2><p>My current learning path. Skill levels will grow as I build more projects.</p></div>
+      <div class="skills-panel glass-card reveal">
+        <div class="skill-item"><div class="skill-label"><span class="skill-symbol html-symbol">5</span><span>HTML</span><span class="skill-level">Learning</span></div><div class="skill-track"><span style="--level:70%"></span></div></div>
+        <div class="skill-item"><div class="skill-label"><span class="skill-symbol css-symbol">✦</span><span>CSS</span><span class="skill-level">Learning</span></div><div class="skill-track"><span style="--level:52%"></span></div></div>
+        <div class="skill-item"><div class="skill-label"><span class="skill-symbol js-symbol">JS</span><span>JavaScript</span><span class="skill-level">Learning</span></div><div class="skill-track"><span style="--level:30%"></span></div></div>
+        <div class="skill-item"><div class="skill-label"><span class="skill-symbol git-symbol">⌘</span><span>Git & GitHub</span><span class="skill-level">Exploring</span></div><div class="skill-track"><span style="--level:25%"></span></div></div>
+      </div>
+      <p class="skills-note">These bars are visual placeholders—adjust them to honestly reflect your current skills.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading section-heading-row reveal"><div><p class="eyebrow">SELECTED WORK</p><h2>Things I’m <span class="gradient-text">building.</span></h2></div><span class="project-count">03 PROJECT IDEAS</span></div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-art art-one"><div class="mini-browser"><div class="mini-browser-bar"><i></i><i></i><i></i></div><div class="mini-layout"><span></span><span></span><span></span></div></div><span class="art-label">01 / COMMUNITY</span></div><div class="project-body"><div class="project-meta"><span>Web Platform</span><span class="project-status">Concept</span></div><h3>AddaSpace</h3><p>A social platform concept designed to help people connect, share ideas and join conversations.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#contact">Discuss this project <span>↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-art art-two"><div class="scoreboard"><span>FIGHTER CLUB</span><div class="score-numbers">02 <b>:</b> 01</div><span class="score-caption">MATCH DAY</span></div><span class="art-label">02 / SPORTS</span></div><div class="project-body"><div class="project-meta"><span>Sports Website</span><span class="project-status">In progress</span></div><h3>FIGHTER Sports</h3><p>A home for sports updates, team information, fixtures and tournament results.</p><div class="tag-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="#contact">Discuss this project <span>↗</span></a></div></article>
+        <article class="project-card reveal"><div class="project-art art-three"><div class="terminal"><span class="terminal-prompt">&gt; </span><span class="terminal-text">hello_world()</span><span class="terminal-cursor"></span><div class="terminal-output">Building something useful...</div></div><span class="art-label">03 / PERSONAL</span></div><div class="project-body"><div class="project-meta"><span>Portfolio</span><span class="project-status">Live preview</span></div><h3>Developer Portfolio</h3><p>A personal corner of the internet to showcase learning, experiments and future projects.</p><div class="tag-row"><span>Responsive</span><span>Dark/Light</span><span>UI</span></div><a class="project-link" href="#home">Back to top <span>↗</span></a></div></article>
+      </div>
+      <p class="project-disclaimer">Project cards are starter examples. Replace descriptions and links with your real work before publishing.</p>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-box reveal"><div class="contact-orb"></div><p class="eyebrow">HAVE AN IDEA?</p><h2>Let’s build something <span class="gradient-text">meaningful.</span></h2><p>I’m always learning and open to connecting with fellow learners and developers.</p><a class="button button-primary" href="mailto:hello@example.com?subject=Hello%20Borno">Say hello <span>↗</span></a><small>Replace hello@example.com with your own email address.</small></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">B</span><span>Borno<span class="brand-dot">.</span></span></a><p>Designed & built with curiosity by <strong>Borno Sarker</strong>.</p><a href="#home" class="back-top">Back to top ↑</a><span class="copyright">© <span id="year"></span></span></div></footer>
+</body>
+</html>
